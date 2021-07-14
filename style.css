@@ -129,10 +129,10 @@ header section:nth-child(2) img{
 /* ------------------------- */
 /* Recent News Section Style */
 #news-recent > .section-title > h2 {
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
 }
 #news-recent > .section-title > hr {
-    margin: 2rem 0;
+    margin: 5rem 0;
 }
 .flexible.recent-news-section > article {
     padding:30px 10px;
