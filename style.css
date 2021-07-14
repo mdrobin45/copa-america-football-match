@@ -2,3 +2,28 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width: 90%;
+    margin: auto;
+}
+:root{
+    --main-color:#2D25A0;
+    --btn-bg-color:#E02C6D;
+    --btn-text-color:#fff;
+}
+.flexible{
+    display: flex;
+}
+img{
+    width: 100%;
+}
+.half-width{
+    width: 50%;
+}
+.btn-style{
+    background:var(--btn-bg-color);
+    color:var(--btn-text-color);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+}
