@@ -1,0 +1,32 @@
+@media only screen and (max-width:668px) {
+    /* Header Responsive */
+    h1 {
+        font-size: 50px;
+    }
+    #header> div,
+    .highlight-section,
+    .recent-news-section {
+        display: inherit;
+    }
+    /* Highlight Responsive */
+    .highlight-section{
+        padding: inherit;
+    }
+    #header section:nth-child(2),
+    .highlight-section > div {
+        width: 100%;
+        padding: 4rem 0;
+    }
+    #header section:nth-child(2) img,
+    .highlight-section > article {
+        width: 100%;
+    }
+    /* Players Section Responsive */
+    .container.player-section {
+        grid-template-columns: 1fr;
+    }
+    /* Gallery Responsive */
+    .image-gallery{
+        grid-template-columns: 1fr;
+    }
+}
