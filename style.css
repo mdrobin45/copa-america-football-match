@@ -76,10 +76,18 @@ header section:nth-child(2) img:hover{
     padding: 15px;
     background: #fff;
     box-shadow: 1px 1px 14px -9px #000000;
+    box-sizing: border-box;
     border-radius: 3px;
+    position: relative;
+    overflow: hidden;
 }
 .player-section > article > img {
     width:100%;
+    cursor: pointer;
+    transition: 0.5s transform;
+}
+.player-section > article > img:hover {
+    transform: scale(1.1);
 }
 .player-section > article > h2 {
     padding: 1rem 0;
