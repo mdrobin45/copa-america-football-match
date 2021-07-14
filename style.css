@@ -12,7 +12,7 @@
     --btn-text-color:#fff;
 }
 
-/* Reusable Style */
+/************* Reusable Style *************/
 
 h1 {
     font-size: 70px;
@@ -49,8 +49,7 @@ img{
     border-bottom-right-radius: 30%;
 }
 
-/* ------------------------- */
-/* Header Section Style */
+/************* Header Section Style *************/
 
 #header {
     background: var(--main-color);
@@ -65,8 +64,7 @@ header section:nth-child(2) img:hover{
     transform: rotate(20deg);
 }
 
-/* ------------------------- */
-/* Player Section Style */
+/*************** Player Section Style ***************/
 
 .player-section{
     display: grid;
@@ -87,8 +85,7 @@ header section:nth-child(2) img:hover{
     padding: 1rem 0;
 }
 
-/* ------------------------- */
-/* Highlights Section Style */
+/************* Highlights Section Style *************/
 
 .highlight-section {
     justify-content: space-between;
@@ -104,8 +101,7 @@ header section:nth-child(2) img:hover{
     margin-top: 1.5em;
 }
 
-/* ------------------------- */
-/* Gallery Section Style */
+/************ Gallery Section Style ************/
 .section-title > hr {
     width: 3px;
     height: 75px;
@@ -134,8 +130,7 @@ header section:nth-child(2) img:hover{
     transform: rotate(360deg);
 }
 
-/* ------------------------- */
-/* Recent News Section Style */
+/************** Recent News Section Style **************/
 #news-recent > .section-title > h2 {
     padding: 5rem 1rem;
 }
@@ -191,8 +186,7 @@ header section:nth-child(2) img:hover{
     color: var(--main-color);
 }
 
-/* ------------------------- */
-/* Footer Section Style */
+/************** Footer Section Style **************/
 footer {
     text-align: center;
     padding: 5rem 0;
@@ -204,7 +198,7 @@ footer > p {
     padding: 1rem 0;
 }
 
-/* Footer Social Icon */
+/***************** Footer Social Icon *****************/
 .footer-social-icon > a {
     font-size: 20px;
     margin: 0 5px;
