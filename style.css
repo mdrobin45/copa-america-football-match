@@ -11,8 +11,20 @@
     --btn-bg-color:#E02C6D;
     --btn-text-color:#fff;
 }
+
+/* Reusable Style */
+
+h1 {
+    font-size: 70px;
+}
 .flexible{
     display: flex;
+}
+.horizontal-center{
+    justify-content: center;
+}
+.vertical-center{
+    align-items: center;
 }
 img{
     width: 100%;
@@ -23,9 +35,18 @@ img{
 .btn-style{
     background:var(--btn-bg-color);
     color:var(--btn-text-color);
-    padding: 10px;
+    padding: 10px 15px;
     text-decoration: none;
-    border-radius: 2px;
+    display: inline-block;
+}
+
+/* ------------------------- */
+/* Header Section Style */
+
+#header {
+    background: var(--main-color);
+    color: #fff;
+    padding: 4em 0;
 }
 header section:nth-child(2) img{
     width: 90%;
