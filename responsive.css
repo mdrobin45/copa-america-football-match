@@ -29,4 +29,7 @@
     .image-gallery{
         grid-template-columns: 1fr;
     }
+    .flexible.recent-news-section > article {
+        margin: 2rem 0px;
+    }
 }

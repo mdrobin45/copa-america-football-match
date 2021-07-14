@@ -66,10 +66,10 @@ header section:nth-child(2) img{
     padding: 5rem 0;
 }
 .player-section > article {
-    padding: 10px 15px;
+    padding: 15px;
     text-align: justify;
     background: #fff;
-    box-shadow: 1px 1px 14px -5px #000000;
+    box-shadow: 1px 1px 14px -9px #000000;
     border-radius: 3px;
 }
 .player-section > article > img {
@@ -135,9 +135,9 @@ header section:nth-child(2) img{
     margin: 5rem 0;
 }
 .flexible.recent-news-section > article {
-    padding:30px 10px;
+    padding:15px;
     box-shadow: 1px 1px 14px -5px #000000;;
-    margin: 0 10px;
+    margin: 0 15px;
     border-radius: 5px;
 }
 .flexible.recent-news-section > article > a{
