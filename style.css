@@ -105,3 +105,23 @@ footer {
 footer > img {
     width: 40%;
 }
+footer > p {
+    padding: 1rem 0;
+}
+
+/* Footer Social Icon */
+.footer-social-icon > a {
+    font-size: 20px;
+    margin: 0 5px;
+    width: 35px;
+    padding: 5px;
+    line-height: 1.8;
+    border-radius: 50%;
+    color: #969BAB;
+    background: #E7E7E8;
+    height: 35px;
+    transition: 0.5s;
+}
+.footer-social-icon > a:hover{
+    color: var(--main-color);
+}
