@@ -85,6 +85,7 @@ header section:nth-child(2) img:hover{
     width:100%;
     cursor: pointer;
     transition: 0.5s transform;
+    border-radius: 5px;
 }
 .player-section > article > img:hover {
     transform: scale(1.1);
@@ -151,6 +152,15 @@ header section:nth-child(2) img:hover{
     margin: 0 15px;
     border-radius: 5px;
     background: #fff;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+section.flexible.recent-news-section > article > img {
+    transition: 0.5s transform;
+}
+section.flexible.recent-news-section > article > img:hover {
+    transform: scale(1.1);
 }
 .flexible.recent-news-section > article > a{
     padding: 10px 0;
