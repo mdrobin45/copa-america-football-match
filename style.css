@@ -51,3 +51,24 @@ img{
 header section:nth-child(2) img{
     width: 90%;
 }
+
+/* Player Section Start */
+.player-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+    padding: 5rem 0;
+}
+.player-section > article {
+    padding: 10px 15px;
+    text-align: justify;
+    background: #fff;
+    box-shadow: 1px 1px 14px -5px #000000;
+    border-radius: 3px;
+}
+.player-section > article > img {
+    width:100%;
+}
+.player-section > article > h2 {
+    padding: 1rem 0;
+}
